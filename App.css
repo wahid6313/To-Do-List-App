@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+/* .container {
+    width: 100%;
+    max-height: 100vh;
+   
+} */
+
+.container {
+  width: 100%;
+  max-width: 540px;
+  background: black;
+  color: white;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 1rem;
+  /* border:white solid 1rem; */
+}
+.title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  /* padding-top: 2rem; */
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(241, 238, 238);
+  padding-left: 1.3rem;
+  margin-bottom: 1.5rem;
+  border-radius: 2rem;
+  /* padding: 1rem; */
+}
+input {
+  border: none;
+  background: transparent;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  outline: none;
+}
+button {
+  border: none;
+  background: orange;
+  padding: 1rem 3.1rem;
+  font-size: 1.2rem;
+  outline: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+li {
+  margin-left: 0.9rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+}
+.task1 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+  font-size: bold;
+}
+
+.task2 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.task3 {
+  display: flex;
+  align-items: center;
+}
+.taskImg {
+  height: 1.5rem;
+  width: 1.5rem;
+  font-size: 600;
+}
+ul li.checked {
+  color: red;
+  text-decoration: line-through;
+}
+li span {
+  margin-left: auto;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  color: yellow;
+  line-height: 2.5rem;
+  padding-left: 1rem;
+  cursor: pointer;
+}
